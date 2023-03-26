@@ -1,0 +1,97 @@
+/* Write your CSS here */
+.bg-container {
+  min-height: 100vh;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Roboto';
+  background-color: #dee0e3;
+}
+
+.container {
+  min-width: 80%;
+}
+
+.heading {
+  font-size: 30px;
+  color: #1e293b;
+}
+
+.image {
+  width: 350px;
+  height: 250px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  order: -1;
+}
+
+.para1 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #475569;
+}
+
+.input-name-element {
+  height: 30px;
+  width: 300px;
+  margin-bottom: 12px;
+  padding-left: 10px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  cursor: pointer;
+  outline: none;
+}
+
+.input-comment-element {
+  padding-left: 10px;
+  height: 120px;
+  width: 300px;
+  margin-bottom: 15px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  cursor: pointer;
+  outline: none;
+}
+
+.button {
+  width: 120px;
+  height: 30px;
+  font-size: 13px;
+  color: #cbd2d9;
+  background-color: #0284c7;
+  border: 0px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.container1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container3 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.no-of-comments {
+  background-color: #0284c7;
+  color: #cbd2d9;
+  width: 26px;
+  height: 26px;
+  margin-right: 5px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  margin-left: 52px;
+}
